@@ -1,0 +1,10 @@
+<ion-view view-title="Positions">
+  <ion-content>
+    <ion-list>
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="position in positions" type="item-text-wrap" href="#/tab/positions/{{position.id}}">
+        <h2>{{position.title}}</h2>
+        <p>{{position.description}}</p>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
